@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header className="px-layout flex items-center justify-between gap-3.5 py-9 shadow-[0_4px_6px_-2px_rgba(0,0,0,0.1)]">
       <img src="src/assets/header/header_logo.svg" alt="Header Logo" />
-      <Button className="cursor-pointer rounded bg-linear-(--color-gradient)" size="lg">
+      <Button className="rounded bg-linear-(--color-gradient)" size="lg">
         Записаться онлайн
       </Button>
       <p className="text-text text text-xl">Ежедневно 09:00 – 21:00</p>
