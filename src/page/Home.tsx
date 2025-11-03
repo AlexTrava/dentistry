@@ -1,6 +1,6 @@
 import Header from "@/components/ui/Header/Header.tsx";
 import Navigation from "@/components/ui/Navigation/Navigation.tsx";
-import CarouselCard from "@/components/ui/CarouselCard/CarouselCard.tsx";
+import HeroCarousel from "@/components/ui/Swiper/HeroCarousel.tsx";
 
 interface Props extends React.ComponentProps<"div"> {}
 
@@ -12,7 +12,7 @@ export const Home = ({ ...rest }: Props) => {
         <Navigation />
         <h1 className="text-[56px] text-white">Центр зрения ДОКТОР ЛИНЗ</h1>
       </div>
-      <CarouselCard />
+      <HeroCarousel />
     </div>
   );
 };
