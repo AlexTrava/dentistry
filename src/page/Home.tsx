@@ -10,9 +10,9 @@ export const Home = ({ ...rest }: Props) => {
       <div>
         <Header />
         <Navigation />
-        <h1 className="text-[56px] text-white">Центр зрения ДОКТОР ЛИНЗ</h1>
       </div>
       <HeroCarousel />
+      <Header />
     </div>
   );
 };
