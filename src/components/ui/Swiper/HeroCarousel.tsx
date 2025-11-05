@@ -14,7 +14,7 @@ const HeroCarousel = () => {
         slidesPerView={1}
         loop={true}
         autoplay={{
-          delay: 5000,
+          delay: 15000,
           disableOnInteraction: false,
         }}
         pagination={{

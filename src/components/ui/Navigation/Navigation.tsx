@@ -33,7 +33,7 @@ const navigationItemRender = (item: NavItemType) => {
   if (item.list) {
     return (
       <NavigationMenuItem key={item.title}>
-        <NavigationMenuTrigger className="bg-transparent px-2 py-1 text-xl font-medium text-gray-800 transition-colors">
+        <NavigationMenuTrigger className="bg-transparent px-2 py-1 text-[17px] font-medium text-gray-800 transition-colors">
           {item.title}
         </NavigationMenuTrigger>
         <NavigationMenuContent className="!text-xl">
